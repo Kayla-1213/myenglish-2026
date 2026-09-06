@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>字裡遠征 English Expedition</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="shell">
+    <nav class="side-nav">
+      <div class="brand">
+        <svg class="brand-mark" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4 32L15 12L21 22L26 14L36 32H4Z" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/>
+          <circle cx="29" cy="9" r="3.2" stroke="currentColor" stroke-width="2.2"/>
+        </svg>
+        <span class="brand-name">字裡遠征</span>
+      </div>
+      <button class="tab-btn active" data-view="dashboard">前哨站<span class="tab-sub">Dashboard</span></button>
+      <button class="tab-btn" data-view="vocab">單字補給<span class="tab-sub">Vocabulary</span></button>
+      <button class="tab-btn" data-view="reading">閱讀路徑<span class="tab-sub">Reading</span></button>
+      <button class="tab-btn" data-view="shadow">口說跟讀<span class="tab-sub">Shadowing</span></button>
+    </nav>
+
+    <main class="main-panel">
+      <div id="app"></div>
+    </main>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
