@@ -1,13 +1,13 @@
 :root {
-  --bg: #EEF0EA;
-  --panel: #F6F7F2;
-  --ink: #1F2B22;
-  --ink-soft: #55604F;
-  --line: #D6D9CC;
-  --teal: #1F6F5C;
-  --teal-dark: #164F41;
-  --gold: #C98A2C;
-  --rust: #A1493A;
+  --bg: #F3F7F4;
+  --panel: #FFFFFF;
+  --ink: #262B27;
+  --ink-soft: #5C6660;
+  --line: #DCE6E0;
+  --teal: #2FA88F;
+  --teal-dark: #1F7A67;
+  --gold: #E3B23C;
+  --rust: #BD5B45;
   --radius: 6px;
 }
 
@@ -90,7 +90,7 @@ p { line-height: 1.6; margin: 0 0 12px 0; }
 .tab-btn.active {
   color: var(--teal-dark);
   border-left-color: var(--gold);
-  background: rgba(201, 138, 44, 0.08);
+  background: rgba(227, 178, 60, 0.08);
   font-weight: 600;
 }
 
@@ -267,7 +267,7 @@ p { line-height: 1.6; margin: 0 0 12px 0; }
 .badge-done {
   border-color: var(--teal);
   color: var(--teal-dark);
-  background: rgba(31, 111, 92, 0.08);
+  background: rgba(47, 168, 143, 0.08);
 }
 
 .hint { color: var(--ink-soft); font-size: 14px; }
@@ -275,7 +275,7 @@ p { line-height: 1.6; margin: 0 0 12px 0; }
 .passage-body { font-size: 17px; line-height: 1.9; }
 
 .vocab-hl {
-  background: rgba(201, 138, 44, 0.18);
+  background: rgba(227, 178, 60, 0.18);
   border-bottom: 2px solid var(--gold);
   padding: 0 1px;
   cursor: pointer;
@@ -285,7 +285,7 @@ p { line-height: 1.6; margin: 0 0 12px 0; }
 .popup {
   margin-top: 16px;
   padding: 14px 16px;
-  background: rgba(31, 111, 92, 0.06);
+  background: rgba(47, 168, 143, 0.06);
   border: 1px solid var(--teal);
   border-radius: var(--radius);
 }
@@ -298,7 +298,7 @@ p { line-height: 1.6; margin: 0 0 12px 0; }
   line-height: 1.7;
   margin: 20px 0;
   padding: 20px;
-  background: rgba(201, 138, 44, 0.06);
+  background: rgba(227, 178, 60, 0.06);
   border-radius: var(--radius);
 }
 
